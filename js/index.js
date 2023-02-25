@@ -73,91 +73,98 @@ function searchAndShow() {
 }
 
 function insertNavbar() {
-    const navbarContainer = document.getElementById('navbar-container');
+    const navbar = document.createElement("nav");
+    navbar.classList.add("navbar", "navbar-expand-lg", "navbar-dark", "bg-primary");
+    const container = document.createElement("div");
+    container.classList.add("container");
+    const brandLink = document.createElement("a");
+    brandLink.classList.add("navbar-brand");
+    brandLink.href = "index.html";
+    brandLink.textContent = "Validasi Ar-Rasyid Wonogiri";
+    const toggleButton = document.createElement("button");
+    toggleButton.classList.add("navbar-toggler");
+    toggleButton.type = "button";
+    toggleButton.dataset.bsToggle = "collapse";
+    toggleButton.dataset.bsTarget = "#navbarNavDropdown";
+    toggleButton.setAttribute("aria-controls", "navbarNavDropdown");
+    toggleButton.setAttribute("aria-expanded", "false");
+    toggleButton.setAttribute("aria-label", "Toggle navigation");
+    const toggleButtonIcon = document.createElement("span");
+    toggleButtonIcon.classList.add("navbar-toggler-icon");
+    toggleButton.appendChild(toggleButtonIcon);
+    const navbarContent = document.createElement("div");
+    navbarContent.classList.add("collapse", "navbar-collapse");
+    navbarContent.id = "navbarNavDropdown";
 
-    const nav = document.createElement('nav');
-    nav.classList.add('navbar', 'navbar-dark', 'navbar-expand-lg', 'bg-body-tertiary', 'bg-primary');
+    const navbarItems = document.createElement("ul");
+    navbarItems.classList.add("navbar-nav", "ms-auto");
 
-    const containerDiv = document.createElement('div');
-    containerDiv.classList.add('container');
+    const homeItem = createNavItem("Home", "index.html", inHomepage);
+    const umumItem = createNavItem("Umum", "https://arrasyid.ponpes.id/");
+    const psbItem = createNavItem("PSB", "https://psb.arrasyid.ponpes.id/");
 
-    const brandLink = document.createElement('a');
-    brandLink.classList.add('navbar-brand');
-    brandLink.href = '/index.html';
-    brandLink.textContent = 'Validasi Ar-Rasyid Wonogiri';
+    const dropdownItem = document.createElement("li");
+    dropdownItem.classList.add("nav-item", "dropdown");
 
-    const toggleButton = document.createElement('button');
-    toggleButton.classList.add('navbar-toggler');
-    toggleButton.type = 'button';
-    toggleButton.dataset.bsToggle = 'collapse';
-    toggleButton.dataset.bsTarget = '#navbarNavDropdown';
-    toggleButton.ariaControls = 'navbarNavDropdown';
-    toggleButton.ariaExpanded = 'false';
-    toggleButton.ariaLabel = 'Toggle navigation';
+    const dropdownLink = document.createElement("a");
+    dropdownLink.classList.add("nav-link", "dropdown-toggle");
+    dropdownLink.href = "#";
+    dropdownLink.role = "button";
+    dropdownLink.dataset.bsToggle = "dropdown";
+    dropdownLink.setAttribute("aria-expanded", "false");
+    dropdownLink.textContent = "Lainnya";
 
-    const toggleIcon = document.createElement('span');
-    toggleIcon.classList.add('navbar-toggler-icon');
+    const dropdownMenu = document.createElement("ul");
+    dropdownMenu.classList.add("dropdown-menu");
 
-    const collapseDiv = document.createElement('div');
-    collapseDiv.classList.add('collapse', 'navbar-collapse');
-    collapseDiv.id = 'navbarNavDropdown';
+    const donasiItem = createDropdownItem("Donasi", "https://donasi.arrasyid.ponpes.id/");
+    const keuanganItem = createDropdownItem("Keuangan", "https://spp-arrasyid.streamlit.app/");
 
-    const ul = document.createElement('ul');
-    ul.classList.add('navbar-nav', 'ms-auto');
+    dropdownMenu.appendChild(donasiItem);
+    dropdownMenu.appendChild(keuanganItem);
 
-    const homeLink = document.createElement('a');
-    homeLink.classList.add('nav-link', 'nav-item');
-    if (inHomepage) {
-        homeLink.classList.add('active')
+    dropdownItem.appendChild(dropdownLink);
+    dropdownItem.appendChild(dropdownMenu);
+
+    navbarItems.appendChild(homeItem);
+    navbarItems.appendChild(umumItem);
+    navbarItems.appendChild(psbItem);
+    navbarItems.appendChild(dropdownItem);
+
+    navbarContent.appendChild(navbarItems);
+
+    container.appendChild(brandLink);
+    container.appendChild(toggleButton);
+    container.appendChild(navbarContent);
+
+    navbar.appendChild(container);
+
+    const navbarContainer = document.getElementById("navbar-container");
+    navbarContainer.appendChild(navbar);
+}
+
+function createNavItem(title, link, isActive) {
+    const li = document.createElement("li");
+    li.classList.add("nav-item");
+    const a = document.createElement("a");
+    a.classList.add("nav-link");
+    if (isActive === true) {
+        a.classList.add("active");
     }
-    homeLink.href = 'index.html';
-    homeLink.textContent = 'Home';
+    a.href = link;
+    a.textContent = title;
+    li.appendChild(a);
+    return li;
+}
 
-    const umumLink = document.createElement('a');
-    umumLink.classList.add('nav-link', 'nav-item');
-    umumLink.href = 'https://arrasyid.ponpes.id';
-    umumLink.textContent = 'Umum';
-
-    const psbLink = document.createElement('a');
-    psbLink.classList.add('nav-link', 'nav-item');
-    psbLink.href = 'https://psb.arrasyid.ponpes.id';
-    psbLink.textContent = 'PSB';
-
-    const dropdownLink = document.createElement('a');
-    dropdownLink.classList.add('nav-link', 'dropdown-toggle', 'nav-item');
-    dropdownLink.href = '#';
-    dropdownLink.role = 'button';
-    dropdownLink.dataset.bsToggle = 'dropdown';
-    dropdownLink.ariaExpanded = 'false';
-    dropdownLink.textContent = 'Lainnya';
-
-    const dropdownMenu = document.createElement('ul');
-    dropdownMenu.classList.add('dropdown-menu');
-
-    const keuanganLink = document.createElement('a');
-    keuanganLink.classList.add('dropdown-item');
-    keuanganLink.href = 'https://spp-arrasyid.streamlit.app';
-    keuanganLink.textContent = 'Keuangan';
-
-    const donasiLink = document.createElement('a');
-    donasiLink.classList.add('dropdown-item');
-    donasiLink.href = 'https://donasi.arrasyid.ponpes.id';
-    donasiLink.textContent = 'Donasi';
-
-    navbarContainer.appendChild(nav);
-    nav.appendChild(containerDiv);
-    containerDiv.appendChild(brandLink);
-    containerDiv.appendChild(toggleButton);
-    toggleButton.appendChild(toggleIcon);
-    containerDiv.appendChild(collapseDiv);
-    collapseDiv.appendChild(ul);
-    ul.appendChild(homeLink);
-    ul.appendChild(umumLink);
-    ul.appendChild(psbLink);
-    ul.appendChild(dropdownLink);
-    dropdownLink.appendChild(dropdownMenu);
-    dropdownMenu.appendChild(keuanganLink);
-    dropdownMenu.appendChild(donasiLink);
+function createDropdownItem(text, href) {
+    const li = document.createElement('li');
+    const a = document.createElement('a');
+    a.classList.add('dropdown-item');
+    a.href = href;
+    a.textContent = text;
+    li.appendChild(a);
+    return li;
 }
 
 function insertFooter() {
@@ -192,6 +199,7 @@ function insertFooter() {
     const p2 = document.createElement('p');
     p2.classList.add('text-center', 'p-3');
     p2.style.backgroundColor = 'rgba(0, 0, 0, 0.2)';
+    p2.style.marginBottom = '0'
 
     const a2 = document.createElement('a');
     a2.classList.add('text-white');

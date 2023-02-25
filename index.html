@@ -1,51 +1,91 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Validasi Markaz Aitam Ar-Rasyid</title>
     <script src="js/index.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
+
 <body>
-<div id="navbar-container"></div>
-<div style="padding: 2rem 1rem">
-    <h1 class="text-center">مركز الأيتام الرشيد</h1>
-    <img id="img-screen" src="img/masyid.png"
-         class="img-fluid rounded mx-auto d-block" alt="Mahad Aly Ar-Rasyid" style="padding: 2rem 1rem">
-    <!--    RADIO-->
-    <form onchange="selectData()">
-        <div class="text-center" style="padding-bottom: 2rem">
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="selectMasyid"
-                       value="option1" checked>
-                <label class="form-check-label" for="selectMasyid">Ijazah Mahad Aly</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="selectKMI" value="option2"
-                       disabled>
-                <label class="form-check-label" for="selectKMI">Ijazah KMI</label>
-            </div>
-            <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
-                       value="option3" disabled>
-                <label class="form-check-label" for="inlineRadio3">Sertifikat Umum</label>
+    <div id="navbar-container"></div>
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Validasi Ar-Rasyid Wonogiri</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://arrasyid.ponpes.id/">Umum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://psb.arrasyid.ponpes.id/">PSB</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Lainnya
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://donasi.arrasyid.ponpes.id/">Donasi</a></li>
+                            <li><a class="dropdown-item" href="https://spp-arrasyid.streamlit.app/">Keuangan</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </div>
-    </form>
-    <!--    RADIO End-->
-    <form onsubmit="openDataNewTab()" class="row g-2 d-flex justify-content-center">
-        <div class="col-auto">
-            <label for="inputID" class="visually-hidden">Massukkan NIM/NIS/ID</label>
-            <input type="text" class="form-control" id="inputID">
-        </div>
-        <div class="col-auto">
-            <button type="submit" class="btn btn-primary mb-3">Validasi</button>
-        </div>
-    </form>
-</div>
-<section id="footer-section">
-</section>
-<script src="js/bootstrap.bundle.js"></script>
+    </nav> -->
+    <div style="padding: 2rem 1rem">
+        <h1 class="text-center">مركز الأيتام الرشيد</h1>
+        <img id="img-screen" src="img/masyid.png" class="img-fluid rounded mx-auto d-block" alt="Mahad Aly Ar-Rasyid"
+            style="padding: 2rem 1rem">
+        <!--    RADIO-->
+        <form onchange="selectData()">
+            <div class="text-center" style="padding-bottom: 2rem">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="selectMasyid"
+                        value="option1" checked>
+                    <label class="form-check-label" for="selectMasyid">Ijazah Mahad Aly</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="selectKMI"
+                        value="option2" disabled>
+                    <label class="form-check-label" for="selectKMI">Ijazah KMI</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                        value="option3" disabled>
+                    <label class="form-check-label" for="inlineRadio3">Sertifikat Umum</label>
+                </div>
+            </div>
+        </form>
+        <!--    RADIO End-->
+        <form onsubmit="openDataNewTab()" class="row g-2 d-flex justify-content-center">
+            <div class="col-auto">
+                <label for="inputID" class="visually-hidden">Massukkan NIM/NIS/ID</label>
+                <input type="text" class="form-control" id="inputID">
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary mb-3">Validasi</button>
+            </div>
+        </form>
+    </div>
+    <section id="footer-section">
+    </section>
+    <!-- <script src="js/bootstrap.bundle.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
