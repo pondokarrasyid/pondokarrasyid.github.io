@@ -39,7 +39,7 @@ async function getStudentsData(nim) {
     return data["mahasiswa"].filter(mhs => mhs["nim"] === nim.toString());
 }
 
-function openDataNewTab() {
+function openData() {
     event.preventDefault();
     const selectedValue = document.querySelector('input[name="inlineRadioOptions"]:checked').value;
     const inputIdValue = document.getElementById("inputID").value;
