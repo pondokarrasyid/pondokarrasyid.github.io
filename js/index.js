@@ -30,7 +30,7 @@ function selectData() {
             document.getElementById('img-screen').src = 'img/sertifikat.png';
             break;
     }
-    document.getElementById('inputID').placeholder = `Masukkan ${placeholder}`;
+    document.getElementById('inputID').placeholder = placeholder;
 }
 
 async function getStudentsData(nim) {
