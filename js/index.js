@@ -34,7 +34,7 @@ function selectData() {
 }
 
 async function getStudentsData(nim) {
-    const response = await fetch('https://raw.githubusercontent.com/fikrihandy/validasi_arrasyid/main/data_mhs/mahasiswa.json');
+    const response = await fetch('https://raw.githubusercontent.com/pondokarrasyid/pondokarrasyid.github.io/main/db/mahasiswa.json');
     const data = await response.json();
     return data["mahasiswa"].filter(mhs => mhs["nim"] === nim.toString());
 }
