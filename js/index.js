@@ -34,7 +34,8 @@ function selectData() {
 }
 
 async function getStudentsData(nim) {
-    const response = await fetch('https://raw.githubusercontent.com/pondokarrasyid/pondokarrasyid.github.io/main/db/mahasiswa.json');
+    // const response = await fetch('https://raw.githubusercontent.com/pondokarrasyid/pondokarrasyid.github.io/main/db/mahasiswa.json');
+    const response = await fetch('/db/mahasiswa.json');
     const data = await response.json();
     return data["mahasiswa"].filter(mhs => mhs["nim"] === nim.toString());
 }
@@ -65,7 +66,17 @@ function searchAndShow() {
             document.getElementById("nomor_ijazah").innerHTML = `No. ${data[0]["nomor_ijazah"]}`;
             document.getElementById("ttl").innerHTML = `Lahir: ${data[0]["ttl"]}`;
             document.getElementById("thn_lulus").innerHTML = `Tahun Lulus: ${data[0]["tahun_lulus"]}`;
-            document.getElementById("certif-image").src = `certificates/mhs/${data[0]["nim"]}.jpeg`;
+
+            const certifImage = document.getElementById("certif-image");
+            const imageUrlJpeg = `certificates/mhs/${data[0]["nim"]}.jpeg`;
+            const imageUrlJpg = `certificates/mhs/${data[0]["nim"]}.jpg`;
+
+            certifImage.src = imageUrlJpeg;
+
+            certifImage.onerror = () => {
+                certifImage.onerror = null;
+                certifImage.src = imageUrlJpg;
+            };
         })
         .catch(error => {
             window.open('index.html?error=1', '_self');

@@ -3,99 +3,99 @@
     {
       "nama": "Halimatuppatimah",
       "nim": "1801003",
-      "nomor_ijazah": "0",
+      "nomor_ijazah": "011821-001",
       "ttl": "Jakarta, 20 Agustus 1999",
       "tahun_lulus": "2021"
     },
     {
       "nama": "Hani Nur Fitriani",
       "nim": "1801004",
-      "nomor_ijazah": "0",
+      "nomor_ijazah": "011821-002",
       "ttl": "Klaten , 03 November 2000",
       "tahun_lulus": "2021"
     },
     {
       "nama": "Indah Wahyu Utami",
       "nim": "1801005",
-      "nomor_ijazah": "0",
+      "nomor_ijazah": "011821-003",
       "ttl": "Karanganyar, 18 Februari 2000",
       "tahun_lulus": "2021"
     },
     {
       "nama": "Maryanti",
       "nim": "1801007",
-      "nomor_ijazah": "0",
+      "nomor_ijazah": "011821-004",
       "ttl": "Karanganyar, 26 Februari 2000",
       "tahun_lulus": "2021"
     },
     {
       "nama": "Maulida Fortuna",
       "nim": "1801008",
-      "nomor_ijazah": "0",
+      "nomor_ijazah": "011821-005",
       "ttl": "Blitar, 24 November 1999",
       "tahun_lulus": "2021"
     },
     {
       "nama": "Nur Aisyah",
       "nim": "1801009",
-      "nomor_ijazah": "0",
+      "nomor_ijazah": "011821-006",
       "ttl": "Karanganyar, 14 Januari 2000",
       "tahun_lulus": "2021"
     },
     {
       "nama": "Nur Dewi Hastuti",
       "nim": "1801010",
-      "nomor_ijazah": "0",
+      "nomor_ijazah": "011821-007",
       "ttl": "Karanganyar, 13 November 1999",
       "tahun_lulus": "2021"
     },
     {
       "nama": "Nurul Ihyani",
       "nim": "1801012",
-      "nomor_ijazah": "0",
+      "nomor_ijazah": "011821-008",
       "ttl": "Ciamis, 11 Agustus 1999",
       "tahun_lulus": "2021"
     },
     {
       "nama": "Rica Rahmawati",
       "nim": "1801013",
-      "nomor_ijazah": "0",
+      "nomor_ijazah": "011821-009",
       "ttl": "Sukoharjo, 01 Mei 1998",
       "tahun_lulus": "2021"
     },
     {
       "nama": "Rizki Abdillah",
       "nim": "1801014",
-      "nomor_ijazah": "0",
+      "nomor_ijazah": "011821-010",
       "ttl": "Karanganyar, 09 Mei 2000",
+      "tahun_lulus": "2021"
+    },
+    {
+      "nama": "Syafitri Hidayah",
+      "nim": "1801015",
+      "nomor_ijazah": "011821-011",
+      "ttl": "Jakarta, 09 Mei 2000",
       "tahun_lulus": "2021"
     },
     {
       "nama": "Vina Dwi Agustin",
       "nim": "1801016",
-      "nomor_ijazah": "0",
+      "nomor_ijazah": "011821-012",
       "ttl": "Boyolali, 31 Agustus 2000",
       "tahun_lulus": "2021"
     },
     {
       "nama": "Yupita Sandra Leka",
       "nim": "1801017",
-      "nomor_ijazah": "0",
+      "nomor_ijazah": "011821-013",
       "ttl": "Gunung Karto, 04 April 1999",
       "tahun_lulus": "2021"
     },
     {
       "nama": "Kurniawati",
       "nim": "1801018",
-      "nomor_ijazah": "0",
+      "nomor_ijazah": "011821-014",
       "ttl": "Kediri, 30 November 2000",
-      "tahun_lulus": "2021"
-    },
-    {
-      "nama": "Abdullah Fikri",
-      "nim": "215611098",
-      "nomor_ijazah": "0",
-      "ttl": "Wonogiri, 21 Februari 2000",
       "tahun_lulus": "2021"
     },
     {
@@ -111,55 +111,356 @@
       "nomor_ijazah": "021922-002",
       "ttl": "Sukoharjo, 10 Juni 2001",
       "tahun_lulus": "2022"
-    },    {
+    },
+    {
       "nama": "Devi Nafidah Nafiana Fatim",
       "nim": "1902022",
       "nomor_ijazah": "021922-003",
       "ttl": "Karanganyar, 07 Desember 2001",
       "tahun_lulus": "2022"
-    },    {
+    },
+    {
       "nama": "Fitria Indah Puspita",
       "nim": "1902023",
       "nomor_ijazah": "021922-004",
       "ttl": "Surabaya, 02 Januari 2002",
       "tahun_lulus": "2022"
-    },    {
+    },
+    {
       "nama": "Laras Puji Hastuti",
       "nim": "1902024",
       "nomor_ijazah": "021922-005",
       "ttl": "Klaten, 02 Mei 2001",
       "tahun_lulus": "2022"
-    },    {
+    },
+    {
       "nama": "Nirmalasari",
       "nim": "1902026",
       "nomor_ijazah": "021922-006",
       "ttl": "Yogyakarta, 26 Mei 2004",
       "tahun_lulus": "2022"
-    },    {
+    },
+    {
       "nama": "Nurul Izzah Husein",
       "nim": "1902027",
       "nomor_ijazah": "021922-007",
       "ttl": "Jambi, 30 Juli 2000",
       "tahun_lulus": "2022"
-    },    {
+    },
+    {
       "nama": "Rinfalay Intan Muta'aaly",
       "nim": "1902028",
       "nomor_ijazah": "021922-008",
       "ttl": "Wonogiri, 27 Juni 2001",
       "tahun_lulus": "2022"
-    },    {
+    },
+    {
       "nama": "Umi Dwi Astuti",
       "nim": "1902029",
       "nomor_ijazah": "021922-009",
       "ttl": "Klaten, 31 Maret 2000",
       "tahun_lulus": "2022"
-    },    {
+    },
+    {
       "nama": "Rahmah Kusuma Wardani",
       "nim": "1902034",
       "nomor_ijazah": "021922-010",
       "ttl": "Wonogiri, 28 November 2001",
       "tahun_lulus": "2022"
+    },
+    {
+      "nama": "Aisyah Ummul Mukminin",
+      "nim": "2003037",
+      "nomor_ijazah": "032023-001",
+      "ttl": "Pontianak, 09 Mei 2001",
+      "tahun_lulus": "2023"
+    },
+    {
+      "nama": "Amanatushsholihah Arrizqi",
+      "nim": "2003039",
+      "nomor_ijazah": "032023-002",
+      "ttl": "Karanganyar, 12 Juni 2005",
+      "tahun_lulus": "2023"
+    },
+    {
+      "nama": "Annisa Latifah",
+      "nim": "2003040",
+      "nomor_ijazah": "032023-003",
+      "ttl": "Karanganyar, 11 Mei 2002",
+      "tahun_lulus": "2023"
+    },
+    {
+      "nama": "Ayu Sesilia Ningrum",
+      "nim": "2003041",
+      "nomor_ijazah": "032023-004",
+      "ttl": "Kalirejo, 29 Maret 2002",
+      "tahun_lulus": "2023"
+    },
+    {
+      "nama": "Fili Sri Putri",
+      "nim": "2003044",
+      "nomor_ijazah": "032023-005",
+      "ttl": "Mataram, 23 Februari 2001",
+      "tahun_lulus": "2023"
+    },
+    {
+      "nama": "Hesti Tri Rahayu",
+      "nim": "2003045",
+      "nomor_ijazah": "032023-006",
+      "ttl": "Sragen, 26 Juni 2002",
+      "tahun_lulus": "2023"
+    },
+    {
+      "nama": "Iffah Tsabita Ihsani",
+      "nim": "2003046",
+      "nomor_ijazah": "032023-007",
+      "ttl": "Jakarta, 31 Mei 2001",
+      "tahun_lulus": "2023"
+    },
+    {
+      "nama": "Iif Mudri Kholfiah",
+      "nim": "2003047",
+      "nomor_ijazah": "032023-008",
+      "ttl": "Sumenep, 22 Agustus 2002",
+      "tahun_lulus": "2023"
+    },
+    {
+      "nama": "Indah Kurnia Ilahi",
+      "nim": "2003048",
+      "nomor_ijazah": "032023-009",
+      "ttl": "Kediri, 18 Maret 2002",
+      "tahun_lulus": "2023"
+    },
+    {
+      "nama": "Kasmawati",
+      "nim": "2003049",
+      "nomor_ijazah": "032023-010",
+      "ttl": "Tanjung Selor, 29 Maret 2001",
+      "tahun_lulus": "2023"
+    },
+    {
+      "nama": "Khoirul Aljanatun Naim",
+      "nim": "2003051",
+      "nomor_ijazah": "032023-011",
+      "ttl": "Boyolali, 10 Juli 2002",
+      "tahun_lulus": "2023"
+    },
+    {
+      "nama": "Lia Wulan Ningrum",
+      "nim": "2003052",
+      "nomor_ijazah": "032023-012",
+      "ttl": "Sukoharjo, 27 November 2000",
+      "tahun_lulus": "2023"
+    },
+    {
+      "nama": "Mut Aymah",
+      "nim": "2003054",
+      "nomor_ijazah": "032023-013",
+      "ttl": "Sumenep, 28 Februari 2002",
+      "tahun_lulus": "2023"
+    },
+    {
+      "nama": "NI'mah Sholiha",
+      "nim": "2003055",
+      "nomor_ijazah": "032023-014",
+      "ttl": "Wonogiri, 26 Juni 2001",
+      "tahun_lulus": "2023"
+    },
+    {
+      "nama": "Putri Dewi Permatasari",
+      "nim": "2003057",
+      "nomor_ijazah": "032023-015",
+      "ttl": "Saribumi, 28 Februari 2001",
+      "tahun_lulus": "2023"
+    },
+    {
+      "nama": "Risalatus Solikhah",
+      "nim": "2003058",
+      "nomor_ijazah": "032023-017",
+      "ttl": "Bumi Nabung Baru, 6 September 2001",
+      "tahun_lulus": "2023"
+    },
+    {
+      "nama": "Rifqi Azis Al-Mukharamah",
+      "nim": "2003059",
+      "nomor_ijazah": "032023-016",
+      "ttl": "Sukoharjo, 18 Oktober 2002",
+      "tahun_lulus": "2023"
+    },
+    {
+      "nama": "Zuleika Hafsha",
+      "nim": "2003062",
+      "nomor_ijazah": "032023-018",
+      "ttl": "Lahat, 28 November 2002",
+      "tahun_lulus": "2023"
+    },
+    {
+      "nama": "Aisyah Nur Jannah",
+      "nim": "2104063",
+      "nomor_ijazah": "042124-001",
+      "ttl": "Klaten, 29 April 2002",
+      "tahun_lulus": "2024"
+    },
+    {
+      "nama": "Azzah Aulia Asmanadella",
+      "nim": "2104065",
+      "nomor_ijazah": "042124-002",
+      "ttl": "Madiun, 19 Februari 2004",
+      "tahun_lulus": "2024"
+    },
+    {
+      "nama": "Dewi Setia Ragen",
+      "nim": "2104066",
+      "nomor_ijazah": "042124-003",
+      "ttl": "Bekasi, 20 April 2003",
+      "tahun_lulus": "2024"
+    },
+    {
+      "nama": "Dinia Qisti",
+      "nim": "2104068",
+      "nomor_ijazah": "042124-004",
+      "ttl": "29 Juni 2024",
+      "tahun_lulus": "2024"
+    },
+    {
+      "nama": "Dwi Ningsih",
+      "nim": "2104069",
+      "nomor_ijazah": "042124-005",
+      "ttl": "Sukoharjo, 21 Mei 2001",
+      "tahun_lulus": "2024"
+    },
+    {
+      "nama": "Erlina Mei Haliza",
+      "nim": "2104070",
+      "nomor_ijazah": "042124-006",
+      "ttl": "Karanganyar, 5 Mei 2004",
+      "tahun_lulus": "2024"
+    },
+    {
+      "nama": "Estifuji Lestari",
+      "nim": "2104072",
+      "nomor_ijazah": "042124-007",
+      "ttl": "Pacitan, 09 Maret 2000",
+      "tahun_lulus": "2024"
+    },
+    {
+      "nama": "Firda Evi Nur Saputri",
+      "nim": "2104073",
+      "nomor_ijazah": "042124-008",
+      "ttl": "Sragen, 29 Oktober 2002",
+      "tahun_lulus": "2024"
+    },
+    {
+      "nama": "Hanifah",
+      "nim": "2104074",
+      "nomor_ijazah": "042124-009",
+      "ttl": "Sukoharjo, 14 Februari 2001",
+      "tahun_lulus": "2024"
+    },
+    {
+      "nama": "Indriani",
+      "nim": "2104075",
+      "nomor_ijazah": "042124-010",
+      "ttl": "Bengkulu, 24 November 2000",
+      "tahun_lulus": "2024"
+    },
+    {
+      "nama": "Intan Janah",
+      "nim": "2104076",
+      "nomor_ijazah": "042124-011",
+      "ttl": "Karanganyar",
+      "tahun_lulus": "2024"
+    },
+    {
+      "nama": "Izna Zulfiyah",
+      "nim": "2104077",
+      "nomor_ijazah": "042124-012",
+      "ttl": "Sumenep, 16 Desember 2003",
+      "tahun_lulus": "2024"
+    },
+    {
+      "nama": "Ketrine Eka Putri",
+      "nim": "2104078",
+      "nomor_ijazah": "042124-013",
+      "ttl": "Bekasi, 28 Desember 2002",
+      "tahun_lulus": "2024"
+    },
+    {
+      "nama": "Miranda Anggraini Sularto",
+      "nim": "2104079",
+      "nomor_ijazah": "042124-014",
+      "ttl": "Karanganyar, 11 Februari 2002",
+      "tahun_lulus": "2024"
+    },
+    {
+      "nama": "Nabula Azzahra",
+      "nim": "2104080",
+      "nomor_ijazah": "042124-015",
+      "ttl": "Kuningan, 29 Juni 2002",
+      "tahun_lulus": "2024"
+    },
+    {
+      "nama": "Novita Ayu Destriana",
+      "nim": "2104081",
+      "nomor_ijazah": "042124-016",
+      "ttl": "Pringsewu, 1 Desember 2005",
+      "tahun_lulus": "2024"
+    },
+    {
+      "nama": "Nurlina",
+      "nim": "2104082",
+      "nomor_ijazah": "042124-017",
+      "ttl": "Mataram, 27 Desember 2003",
+      "tahun_lulus": "2024"
+    },
+    {
+      "nama": "Putri Margareta",
+      "nim": "2104083",
+      "nomor_ijazah": "042124-018",
+      "ttl": "Grobogan, 21 Maret 2003",
+      "tahun_lulus": "2024"
+    },
+    {
+      "nama": "Raihanah Nafi'ah",
+      "nim": "2104084",
+      "nomor_ijazah": "042124-019",
+      "ttl": "Boyolali, 20 Agustus 2005",
+      "tahun_lulus": "2024"
+    },
+    {
+      "nama": "Rifdah Khuwaida Amani",
+      "nim": "2104085",
+      "nomor_ijazah": "042124-020",
+      "ttl": "Purbalingga, 25 November 2002",
+      "tahun_lulus": "2024"
+    },
+    {
+      "nama": "Septiani Nurhasanah",
+      "nim": "2104088",
+      "nomor_ijazah": "042124-021",
+      "ttl": "Lampung Tengah, 10 September 2000",
+      "tahun_lulus": "2024"
+    },
+    {
+      "nama": "Serly Ninda Septiana",
+      "nim": "2104089",
+      "nomor_ijazah": "042124-022",
+      "ttl": "Grobogan, 11 September 2003",
+      "tahun_lulus": "2024"
+    },
+    {
+      "nama": "Thalia Qurrotul Aini",
+      "nim": "2104091",
+      "nomor_ijazah": "042124-023",
+      "ttl": "Malang, 23 Maret 2002",
+      "tahun_lulus": "2024"
+    },
+    {
+      "nama": "Tri Rahayu",
+      "nim": "2104092",
+      "nomor_ijazah": "042124-024",
+      "ttl": "Metro, 12 Oktober 2002",
+      "tahun_lulus": "2024"
     }
   ]
 }
-
